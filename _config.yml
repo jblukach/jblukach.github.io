@@ -1,0 +1,10 @@
+title: blog.lukach.io
+description: Gone Fishing!
+logo: /images/lunker.png
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+paginate: 8
+paginate_path: ./page:num/
+url: https://blog.lukach.io
