@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #22 - CodeWhisperer AI companion for Cloud9 IDE"
+title: "4n6irBlog #22 - CodeWhisperer AI companion for Cloud9 IDE"
 author: "John Lukach"
 tags: Artificial Intelligence CodeWhisperer Cloud9
 ---

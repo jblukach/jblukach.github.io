@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #14 - Using AWS Cloud9 as a Bastion Host"
+title: "4n6irBlog #14 - Using AWS Cloud9 as a Bastion Host"
 author: "John Lukach"
 tags: Amazon AWS Bastion CDK Cloud9 Linux
 ---

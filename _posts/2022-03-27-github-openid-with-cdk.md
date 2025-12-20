@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #5 - GitHub OpenID with AWS CDK"
+title: "4n6irBlog #5 - GitHub OpenID with AWS CDK"
 author: "John Lukach"
 tags: AWS CDK GitHub OpenID
 ---

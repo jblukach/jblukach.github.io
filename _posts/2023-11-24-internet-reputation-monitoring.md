@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #28 - Internet Reputation Monitoring"
+title: "4n6irBlog #28 - Internet Reputation Monitoring"
 author: "John Lukach"
 tags: Feed Intel Map Reputation Threat 
 ---

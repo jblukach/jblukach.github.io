@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #32 - AWS has Seventeen Regions Enabled by Default"
+title: "4n6irBlog #32 - AWS has Seventeen Regions Enabled by Default"
 author: "John Lukach"
 tags: AWS ControlTower GuardDuty SecurityHub
 ---

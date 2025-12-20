@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #11 - Capture Lambda Public IP Address"
+title: "4n6irBlog #11 - Capture Lambda Public IP Address"
 author: "John Lukach"
 tags: AWS CDK Extension Lambda Python
 ---

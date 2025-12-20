@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #26 - No Lambda Left Up A Creek"
+title: "4n6irBlog #26 - No Lambda Left Up A Creek"
 author: "John Lukach"
 tags: AWS CDK Extension Lambda PublicIP Python 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #29 - Wrangling with AWS Config for Control Tower"
+title: "4n6irBlog #29 - Wrangling with AWS Config for Control Tower"
 author: "John Lukach"
 tags: AWS Config Python Control Tower
 ---

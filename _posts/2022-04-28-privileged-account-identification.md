@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #7 - Privileged Account Identification"
+title: "4n6irBlog #7 - Privileged Account Identification"
 author: "John Lukach"
 tags: AWS Delegated Organization
 ---

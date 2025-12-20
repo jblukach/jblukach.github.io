@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #33 - Migrating GitHub Pages to AWS Amplify"
+title: "4n6irBlog #33 - Migrating GitHub Pages to AWS Amplify"
 author: "John Lukach"
 tags: aws amplify github pages blog jekyll
 ---

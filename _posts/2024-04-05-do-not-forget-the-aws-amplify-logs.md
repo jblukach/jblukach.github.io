@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #34 - Do not forget the AWS Amplify Logs"
+title: "4n6irBlog #34 - Do not forget the AWS Amplify Logs"
 author: "John Lukach"
 tags: aws amplify cloudfront access logs
 ---

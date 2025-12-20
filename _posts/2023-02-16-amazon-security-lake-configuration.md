@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #19 - Amazon Security Lake Configuration"
+title: "4n6irBlog #19 - Amazon Security Lake Configuration"
 author: "John Lukach"
 tags: Amazon Security Lake Cloud Trail Route53 VPC Hub
 ---

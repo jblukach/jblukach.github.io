@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #46 - Security version of “ls” a.k.a. “dir” command"
+title: "4n6irBlog #46 - Security version of “ls” a.k.a. “dir” command"
 author: "John Lukach"
 tags: artifacts blake3 gtfobins lolbas loobins mmi poppy
 ---

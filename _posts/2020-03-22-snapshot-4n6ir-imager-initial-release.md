@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #1 - Snapshot 4n6ir Imager Initial Release"
+title: "4n6irBlog #1 - Snapshot 4n6ir Imager Initial Release"
 author: "John Lukach"
 tags: AWS EBS Python
 ---

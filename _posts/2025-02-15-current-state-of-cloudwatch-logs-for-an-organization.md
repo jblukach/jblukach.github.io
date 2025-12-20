@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #47 - Current State of CloudWatch Logs for an Organization"
+title: "4n6irBlog #47 - Current State of CloudWatch Logs for an Organization"
 author: "John Lukach"
 tags: aws botoplus cloudwatch cwl jupyter logs notebook python
 ---

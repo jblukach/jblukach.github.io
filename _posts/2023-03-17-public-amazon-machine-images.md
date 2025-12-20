@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #20 - Public Amazon Machine Images"
+title: "4n6irBlog #20 - Public Amazon Machine Images"
 author: "John Lukach"
 tags: Amazon Public AMIs
 ---

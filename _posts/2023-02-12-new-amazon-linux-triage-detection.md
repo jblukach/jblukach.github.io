@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #18 - New Amazon Linux Triage Detection"
+title: "4n6irBlog #18 - New Amazon Linux Triage Detection"
 author: "John Lukach"
 tags: Amazon AWS Linux Meta SHA256
 ---

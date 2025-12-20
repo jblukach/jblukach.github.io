@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #41 - Upgrade to the new version of ECR Basic Scanning"
+title: "4n6irBlog #41 - Upgrade to the new version of ECR Basic Scanning"
 author: "John Lukach"
 tags: aws botoplus container ecr jupyter notebook python vulnerability
 ---

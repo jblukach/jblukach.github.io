@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #8 - Route53 Public Host Zone Pattern"
+title: "4n6irBlog #8 - Route53 Public Host Zone Pattern"
 author: "John Lukach"
 tags: AWS Route53 SPF DMARC DKIM DNSSEC
 ---

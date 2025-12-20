@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #43 - Additional CloudFront Log Formats and Destinations"
+title: "4n6irBlog #43 - Additional CloudFront Log Formats and Destinations"
 author: "John Lukach"
 tags: aws cloudfront logs
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #36 - Run Security Lake in Control Tower Log Archive"
+title: "4n6irBlog #36 - Run Security Lake in Control Tower Log Archive"
 author: "John Lukach"
 tags: aws security lake control tower log archive
 ---

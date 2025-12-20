@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #17 - GitHub fine-grained PATs for CDK Pipelines"
+title: "4n6irBlog #17 - GitHub fine-grained PATs for CDK Pipelines"
 author: "John Lukach"
 tags: AWS CDK GitHub Pipelines PATs
 ---

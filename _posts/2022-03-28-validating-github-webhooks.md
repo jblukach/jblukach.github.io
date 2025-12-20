@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #6 - Validating GitHub Webhooks with Python"
+title: "4n6irBlog #6 - Validating GitHub Webhooks with Python"
 author: "John Lukach"
 tags: GitHub Python Webhooks
 ---

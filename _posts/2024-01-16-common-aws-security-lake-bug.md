@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #31 - Common AWS Security Lake Bug"
+title: "4n6irBlog #31 - Common AWS Security Lake Bug"
 author: "John Lukach"
 tags: Amazon Security Lake
 ---

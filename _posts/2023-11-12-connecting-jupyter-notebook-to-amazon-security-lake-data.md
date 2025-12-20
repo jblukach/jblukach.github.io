@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #27 - Connecting Jupyter Notebook to Amazon Security Lake data"
+title: "4n6irBlog #27 - Connecting Jupyter Notebook to Amazon Security Lake data"
 author: "John Lukach"
 tags: AWS Security Lake Jupyter Notebook Python 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Migrated #13 - Amazon Linux Triage for Anyone and Everyone"
+title: "4n6irBlog #13 - Amazon Linux Triage for Anyone and Everyone"
 author: "John Lukach"
 tags: Amazon AWS Linux Meta SHA256
 ---
