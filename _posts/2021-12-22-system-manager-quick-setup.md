@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #3 - System Manager Quick Setup"
+title: "4n6ir #3 - System Manager Quick Setup"
 author: "John Lukach"
 tags: AWS SSM System Manager
 ---

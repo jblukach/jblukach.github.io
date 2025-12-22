@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #42 - Yet another company lost your sensitive information"
+title: "4n6ir #42 - Yet another company lost your sensitive information"
 author: "John Lukach"
 tags: equifax experian innovis transunion
 ---

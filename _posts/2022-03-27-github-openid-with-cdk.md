@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #5 - GitHub OpenID with AWS CDK"
+title: "4n6ir #5 - GitHub OpenID with AWS CDK"
 author: "John Lukach"
 tags: AWS CDK GitHub OpenID
 ---

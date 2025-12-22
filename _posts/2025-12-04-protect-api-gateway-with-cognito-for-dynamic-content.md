@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #50 - Protect API Gateway with Cognito for Dynamic Content"
+title: "4n6ir #50 - Protect API Gateway with Cognito for Dynamic Content"
 author: "John Lukach"
 tags: aws api gateway cognito lambda
 ---

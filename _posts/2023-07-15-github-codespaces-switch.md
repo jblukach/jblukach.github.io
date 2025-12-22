@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #24 - GitHub Codespaces Switch"
+title: "4n6ir #24 - GitHub Codespaces Switch"
 author: "John Lukach"
 tags: GitHub Codespaces Python CDK Jupyter AWS Amazon CodeWhisperer Copilot
 ---

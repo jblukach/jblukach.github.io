@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #44 - Trust but verify AWS Lambda controls with Grafana"
+title: "4n6ir #44 - Trust but verify AWS Lambda controls with Grafana"
 author: "John Lukach"
 tags: aws botoplus error grafana jupyter lambda notebook observability python
 ---

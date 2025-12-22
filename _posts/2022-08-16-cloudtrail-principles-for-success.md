@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #9 - CloudTrail Principles for Success"
+title: "4n6ir #9 - CloudTrail Principles for Success"
 author: "John Lukach"
 tags: AWS CloudTrail Expedition Index Lake
 ---

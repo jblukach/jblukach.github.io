@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #48 - AWS Lambda Layer Patching"
+title: "4n6ir #48 - AWS Lambda Layer Patching"
 author: "John Lukach"
 tags: lambda layer pip python
 ---

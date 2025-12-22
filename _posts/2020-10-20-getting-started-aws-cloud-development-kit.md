@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #2 - Getting Started - AWS Cloud Development Kit"
+title: "4n6ir #2 - Getting Started - AWS Cloud Development Kit"
 author: "John Lukach"
 tags: AWS CDK Cloud9 Python
 ---

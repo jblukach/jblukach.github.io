@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #15 - Security Event Bus Implementation"
+title: "4n6ir #15 - Security Event Bus Implementation"
 author: "John Lukach"
 tags: AWS Bus Event Hub Python Security
 ---

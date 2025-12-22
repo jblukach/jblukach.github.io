@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #25 - Amazon SageMaker Jupyter Notebooks"
+title: "4n6ir #25 - Amazon SageMaker Jupyter Notebooks"
 author: "John Lukach"
 tags: AWS Amazon SageMaker Jupyter Notebooks
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #40 - Cloud Development Kit Garbage Collection"
+title: "4n6ir #40 - Cloud Development Kit Garbage Collection"
 author: "John Lukach"
 tags: aws cdk ecr s3
 ---

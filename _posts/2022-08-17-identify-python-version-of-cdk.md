@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #10 - Identify Python Version of CDK"
+title: "4n6ir #10 - Identify Python Version of CDK"
 author: "John Lukach"
 tags: AWS CDK Python
 ---

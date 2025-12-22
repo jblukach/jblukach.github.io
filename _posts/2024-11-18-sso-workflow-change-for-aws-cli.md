@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #39 - SSO Workflow change for AWS CLI"
+title: "4n6ir #39 - SSO Workflow change for AWS CLI"
 author: "John Lukach"
 tags: aws cli sso
 ---

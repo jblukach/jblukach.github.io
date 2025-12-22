@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #37 - Open Ports, Reputation Monitoring & Web Inspection"
+title: "4n6ir #37 - Open Ports, Reputation Monitoring & Web Inspection"
 author: "John Lukach"
 tags: aws censys chatops exposure guardduty lunker macie osint ports reputation surface threat webrecorder
 ---

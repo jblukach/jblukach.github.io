@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #21 - AArch64 Memory Acquisition for Linux"
+title: "4n6ir #21 - AArch64 Memory Acquisition for Linux"
 author: "John Lukach"
 tags: AArch64 arm64 Linux Memory Acquisition
 ---

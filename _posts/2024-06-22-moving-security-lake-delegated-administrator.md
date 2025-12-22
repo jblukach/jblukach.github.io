@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #35 - Moving Security Lake Delegated Administrator"
+title: "4n6ir #35 - Moving Security Lake Delegated Administrator"
 author: "John Lukach"
 tags: aws security lake delegated administrator
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #30 - Old $DayJob Laptop Lid"
+title: "4n6ir #30 - Old $DayJob Laptop Lid"
 author: "John Lukach"
 tags: Stickers
 ---

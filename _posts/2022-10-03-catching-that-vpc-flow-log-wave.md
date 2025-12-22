@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #12 - Catching that VPC Flow Log Wave"
+title: "4n6ir #12 - Catching that VPC Flow Log Wave"
 author: "John Lukach"
 tags: AWS CDK Flows Index Lake VPC
 ---

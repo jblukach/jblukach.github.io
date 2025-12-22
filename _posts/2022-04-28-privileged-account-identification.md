@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #7 - Privileged Account Identification"
+title: "4n6ir #7 - Privileged Account Identification"
 author: "John Lukach"
 tags: AWS Delegated Organization
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #38 - Root Access Management is Awesome"
+title: "4n6ir #38 - Root Access Management is Awesome"
 author: "John Lukach"
 tags: aws iam root
 ---

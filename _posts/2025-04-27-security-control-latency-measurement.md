@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #49 - Security Control Latency Measurement"
+title: "4n6ir #49 - Security Control Latency Measurement"
 author: "John Lukach"
 tags: aws ipv4 ipv6 https latency
 ---

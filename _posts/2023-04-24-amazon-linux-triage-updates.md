@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4n6irBlog #23 - Amazon Linux Triage Updates"
+title: "4n6ir #23 - Amazon Linux Triage Updates"
 author: "John Lukach"
 tags: Amazon AWS Linux Meta SHA256
 ---
