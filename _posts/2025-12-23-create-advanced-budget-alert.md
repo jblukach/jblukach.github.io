@@ -36,3 +36,4 @@ I set up budget alerts for $20 increments, typically delayed by 24 hours.
 ### Review
 
 ![budget alert](/images/2025/12/23/10-budget-alert.png)
+
