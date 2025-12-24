@@ -1,7 +1,9 @@
+/* Lightbox thumbnail */
 .lightbox-thumb {
   cursor: zoom-in;
 }
 
+/* Fullscreen overlay */
 .lightbox {
   position: fixed;
   inset: 0;
@@ -12,11 +14,13 @@
   z-index: 9999;
 }
 
+/* Fullscreen image sizing */
 .lightbox img {
-  max-width: 95%;
-  max-height: 95%;
+  max-width: 95vw;
+  max-height: 95vh;
 }
 
+/* Show when targeted */
 .lightbox:target {
   display: flex;
 }
