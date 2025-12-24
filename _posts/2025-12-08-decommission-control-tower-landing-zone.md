@@ -16,3 +16,8 @@ AWS Control Tower leaves behind resources that require manual cleanup, which mus
 ![decommission your landing zone](/images/2025/12/08/1-control-tower.jpeg)
 
 ![decommission your landing zone](/images/2025/12/08/2-control-tower.jpeg)
+
+
+[![decommission your landing zone](/images/2025/12/08/1-control-tower.jpeg)](/images/2025/12/08/1-control-tower.jpeg)
+
+[![decommission your landing zone]({{ site.baseurl }}/images/2025/12/08/1-control-tower.jpeg)]({{ site.baseurl }}/images/2025/12/08/1-control-tower.jpeg)
