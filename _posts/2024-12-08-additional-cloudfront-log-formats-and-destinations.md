@@ -29,6 +29,6 @@ This release was long overdue to improve efficiency for security monitoring.
 - JSON
 - TEXT
 
-![cloudfront-settings.jpg](/images/2024/12/1-cloudfront-settings.jpg)
+[![cloudfront-settings.jpg](/images/2024/12/1-cloudfront-settings.jpg)](/images/2024/12/1-cloudfront-settings.jpg)
 
-![cloudfront-fields.jpg](/images/2024/12/2-cloudfront-fields.jpg)
+[![cloudfront-fields.jpg](/images/2024/12/2-cloudfront-fields.jpg)](/images/2024/12/2-cloudfront-fields.jpg)

@@ -7,7 +7,7 @@ tags: blake3 gtfobins lolbas poppy
 
 Metadata is the lowest-value indicator and is easy to circumvent. Still, with the exponential volume of directories and files standard on default operating system installations, finding things hiding in plain sight has become an important analysis technique. Traditionally, forensic analysis has only used the hash of file content that can be changed with a single-bit flip; thus, triage must be expanded to not just gold builds anymore!
 
-![matchmeta](/images/2025/01/matchmeta.png)
+[![matchmeta](/images/2025/01/matchmeta.png)](/images/2025/01/matchmeta.png)
 
 ### First Edition
 

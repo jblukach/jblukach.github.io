@@ -11,11 +11,11 @@ Technology will always have risks; determining what you are comfortable acceptin
 
 My goal is to work anywhere with cell service using an Apple iPad. I also wanted to use a single-user interface for the three development areas, thus running Visual Studio Code for the Web from Microsoft on GitHub Codespaces with the following setup.
 
-![create-codespace](/images/2023/07/1-create-codespace.png)
+[![create-codespace](/images/2023/07/1-create-codespace.png)](/images/2023/07/1-create-codespace.png)
 
 I add the following extensions for Python development work.
 
-![python-development](/images/2023/07/2-python-development.png)
+[![python-development](/images/2023/07/2-python-development.png)](/images/2023/07/2-python-development.png)
 
 Cloud Development Kit (CDK) has a few more dependencies, as ```npm install -g aws-cdk``` results in an error message when checking the installed version with the ```cdk version``` command.
 
@@ -50,7 +50,7 @@ npm ERR! A complete log of this run can be found in: /home/codespace/.npm/_logs/
 
 For CDK to build containers, add the Docker extension.
 
-![docker-install](/images/2023/07/3-docker-install.png)
+[![docker-install](/images/2023/07/3-docker-install.png)](/images/2023/07/3-docker-install.png)
 
 I still use ```aqueduct``` as my helper script for AWS access with a few modifications for GitHub Codespaces.
 
@@ -58,7 +58,7 @@ I still use ```aqueduct``` as my helper script for AWS access with a few modific
 
 The Jupyter extension is easy to add for notebook work too.
 
-![jupyter-install](/images/2023/07/4-jupyter-install.png)
+[![jupyter-install](/images/2023/07/4-jupyter-install.png)](/images/2023/07/4-jupyter-install.png)
 
 I have published a Python Library to help develop Jupyter Notebooks with a few examples.
 
@@ -66,8 +66,8 @@ I have published a Python Library to help develop Jupyter Notebooks with a few e
 
 Writing Infrastructure as Code (IaC) for Amazon Web Services (AWS), I prefer using Amazon CodeWhisperer, which requires the AWS Toolkit extension.
 
-![codewhisperer-install](/images/2023/07/5-codewhisperer-install.png)
+[![codewhisperer-install](/images/2023/07/5-codewhisperer-install.png)](/images/2023/07/5-codewhisperer-install.png)
 
 If I am writing Python specifically, I have started using GitHub Copilot, a pay-to-play offering requiring you to pay even more to protect your intellectual property.
 
-![copilot-install](/images/2023/07/6-copilot-install.png)
+[![copilot-install](/images/2023/07/6-copilot-install.png)](/images/2023/07/6-copilot-install.png)

@@ -9,21 +9,21 @@ tags: AWS CDK Cloud9 Python
 
 Two-point-five years into my nomadic lifestyle of using cellular data, I decided it was time to figure out my development environment. My primary goal was to lower my local bandwidth consumption while having a decent interface that I could use from macOS, iPadOS, and Linux operating systems. I code for fun mainly with Python on AWS infrastructure, making Cloud9 and CDK an excellent starting point.
 
-![1-createenvironment](/images/2020/10/1-createenvironment.png)
+[![1-createenvironment](/images/2020/10/1-createenvironment.png)](/images/2020/10/1-createenvironment.png)
 
 Start by launching a Cloud9 environment with an identifiable name and optional description in the region with your current workloads.
 
-![2-nameenvironment](/images/2020/10/2-nameenvironment.png)
+[![2-nameenvironment](/images/2020/10/2-nameenvironment.png)](/images/2020/10/2-nameenvironment.png)
 
 I like to create a no-ingress EC2 instance for simplified environment access via System Manager since my public egress IP continually changes. Depending on your requirements, this may introduce some additional security considerations for your development bastion host.
 
 [https://docs.aws.amazon.com/systems-manager/latest/userguide/security-best-practices.html](https://docs.aws.amazon.com/systems-manager/latest/userguide/security-best-practices.html)
 
-![3-configuresettings](/images/2020/10/3-configuresettings.png)
+[![3-configuresettings](/images/2020/10/3-configuresettings.png)](/images/2020/10/3-configuresettings.png)
 
 I pick Amazon Linux 2 as my operating system of choice.  This helps with a serverless strategy making the addition of external Python libraries easier for Lambda development.
 
-![4-platformsettings](/images/2020/10/4-platformsettings.png)
+[![4-platformsettings](/images/2020/10/4-platformsettings.png)](/images/2020/10/4-platformsettings.png)
 
 Now you can just open a terminal window in a specific lambda folder to quickly add compatible libraries.
 
@@ -33,21 +33,21 @@ $ python3 -m pip install --target=./ requests
 
 Cloud9 deployments can be secured with VPC Endpoints for EC2 and SSM or, better yet, add a public/private subnet with NAT Gateway for your egress in production environments too.
 
-![5-launchenvironment](/images/2020/10/5-launchenvironment.png)
+[![5-launchenvironment](/images/2020/10/5-launchenvironment.png)](/images/2020/10/5-launchenvironment.png)
 
 ##### PRETTY WEB UI
 
-![6-AWSCloud9](/images/2020/10/6-AWSCloud9.png)
+[![6-AWSCloud9](/images/2020/10/6-AWSCloud9.png)](/images/2020/10/6-AWSCloud9.png)
 
 Ok, I can not look at the default theme for long, so I change that right out of the gate.
 
-![7-Cloud9Preferences](/images/2020/10/7-Cloud9Preferences.png)
+[![7-Cloud9Preferences](/images/2020/10/7-Cloud9Preferences.png)](/images/2020/10/7-Cloud9Preferences.png)
 
 ##### EXPAND VOLUME SIZE
 
 The default installation only has 10 GB of storage allocated, not leaving enough room for all the necessary dependencies.  I would recommend a minimum of 20 GB for your disk storage starting point.
 
-![8-modifyvolume](/images/2020/10/8-modifyvolume.png)
+[![8-modifyvolume](/images/2020/10/8-modifyvolume.png)](/images/2020/10/8-modifyvolume.png)
 
 During the initial setup, the EC2 volume can fill up, requiring the temporary directory to be emptied to free up space.
 

@@ -11,7 +11,7 @@ The ```mmi``` command line interface (CLI) allows anyone and everyone to triage 
 - **GREEN** Known File Content
 - **RED** Potentially Suspect
 
-![mmi cli output](/images/2025/02/cli.jpg)
+[![mmi cli output](/images/2025/02/cli.jpg)](/images/2025/02/cli.jpg)
 
 Blake3 (B3) hashes of the file content, directory name, file name, and full path are automatically collected when the EC2 Image Builder pipeline executes the ```getmeta``` command.
 

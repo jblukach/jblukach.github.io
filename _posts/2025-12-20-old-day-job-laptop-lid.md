@@ -5,4 +5,4 @@ author: "John Lukach"
 tags: Stickers
 ---
 
-![Old $DayJob Laptop Lid](/images/2025/12/20/lid.jpeg)
+[![Old $DayJob Laptop Lid](/images/2025/12/20/lid.jpeg)](/images/2025/12/20/lid.jpeg)

@@ -9,16 +9,16 @@ How many countless security incidents have occurred due to an S3 bucket being ma
 
 ### Enable S3 Policies
 
-![enable s3 policy](/images/2025/12/19/1-s3policy.png)
+[![enable s3 policy](/images/2025/12/19/1-s3policy.png)](/images/2025/12/19/1-s3policy.png)
 
-![enable s3 policy](/images/2025/12/19/2-s3policy.png)
+[![enable s3 policy](/images/2025/12/19/2-s3policy.png)](/images/2025/12/19/2-s3policy.png)
 
-![enable s3 policy](/images/2025/12/19/3-s3policy.png)
+[![enable s3 policy](/images/2025/12/19/3-s3policy.png)](/images/2025/12/19/3-s3policy.png)
 
 ### Attach Policy
 
-![attach s3 policy](/images/2025/12/19/4-s3policy.png)
+[![attach s3 policy](/images/2025/12/19/4-s3policy.png)](/images/2025/12/19/4-s3policy.png)
 
-![attach s3 policy](/images/2025/12/19/5-s3policy.png)
+[![attach s3 policy](/images/2025/12/19/5-s3policy.png)](/images/2025/12/19/5-s3policy.png)
 
-![attach s3 policy](/images/2025/12/19/6-s3policy.png)
+[![attach s3 policy](/images/2025/12/19/6-s3policy.png)](/images/2025/12/19/6-s3policy.png)

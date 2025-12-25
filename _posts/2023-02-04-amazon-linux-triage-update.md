@@ -5,7 +5,7 @@ author: "John Lukach"
 tags: Amazon AWS Linux Meta SHA256
 ---
 
-![MatchMeta.Info](/images/2023/02/MMI.png)
+[![MatchMeta.Info](/images/2023/02/MMI.png)](/images/2023/02/MMI.png)
 
 Released lucky number version **13** recently to help anyone and everyone triage their Amazon Linux, Amazon Linux 2, and Amazon Linux 2022 installations for ```x86_64``` and ```arm64``` architectures.
 

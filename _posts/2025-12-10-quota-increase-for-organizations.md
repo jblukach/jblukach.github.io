@@ -9,8 +9,8 @@ I hit the concurrent account-creation limit of five, with a quota max of ten acc
 
 ### Quota Increase: Organizations
 
-![service quotas](/images/2025/12/10/1-service-quotas.png)
+[![service quotas](/images/2025/12/10/1-service-quotas.png)](/images/2025/12/10/1-service-quotas.png)
 
-![service quotas](/images/2025/12/10/2-service-quotas.png)
+[![service quotas](/images/2025/12/10/2-service-quotas.png)](/images/2025/12/10/2-service-quotas.png)
 
-![service quotas](/images/2025/12/10/3-service-quotas.png)
+[![service quotas](/images/2025/12/10/3-service-quotas.png)](/images/2025/12/10/3-service-quotas.png)

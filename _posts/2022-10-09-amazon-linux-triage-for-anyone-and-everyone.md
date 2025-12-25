@@ -9,7 +9,7 @@ Amazon Linux default installation now starts with about **150,000** directories 
 
 Review enough systems; you start remembering all those Amazon Linux operating system artifacts. Just in time for new directories and filenames to be added to the mix or moved to other locations.
 
-![MMI-Command-Output](/images/2022/10/MMI-Output.jpg)
+[![MMI-Command-Output](/images/2022/10/MMI-Output.jpg)](/images/2022/10/MMI-Output.jpg)
 
 The ```mmi``` command line tool lists the current path's directories and files based on user access permission, which are color-coded to help reduce triage time.
 

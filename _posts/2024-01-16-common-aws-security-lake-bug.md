@@ -20,7 +20,7 @@ SecurityLake_Glue_Partition_Updater_Lambda_1_0_us-east-2
 
 First, the SQS Lambda Trigger for **SecurityLake_us-east-2_MAIN_QUEUE_1_0** is not always enabled.
 
-![Security Lake SQS Lambda Trigger](/images/2024/01/lambda.jpg)
+[![Security Lake SQS Lambda Trigger](/images/2024/01/lambda.jpg)](/images/2024/01/lambda.jpg)
 
 Second, the deployed Lambda does not receive the correct KMS grant. Swapping the role to a temporary one and back again has worked best.
 

@@ -5,23 +5,23 @@ author: "John Lukach"
 tags: Amazon AWS Bastion CDK Cloud9 Linux
 ---
 
-![1-AWS-Cloud9-IDE](/images/2022/10/1-AWS-Cloud9-IDE.png)
+[![1-AWS-Cloud9-IDE](/images/2022/10/1-AWS-Cloud9-IDE.png)](/images/2022/10/1-AWS-Cloud9-IDE.png)
 
 I originally wrote a blog post about getting rid of my local development environment that used AWS Cloud Development Kit (CDK) in October 2020. I figured it was time to provide an updated configuration on using AWS CLoud9 as a Bastion Host.
 
-![2-Name-Environment](/images/2022/10/2-Name-Environment.png)
+[![2-Name-Environment](/images/2022/10/2-Name-Environment.png)](/images/2022/10/2-Name-Environment.png)
 
 Create a no-ingress EC2 instance for simplified environment access via System Manager using a t3.small running Amazon Linux 2 with a thirty-minute timeout.
 
-![3-Configure-Settings-One](/images/2022/10/3-Configure-Settings-One.png)
+[![3-Configure-Settings-One](/images/2022/10/3-Configure-Settings-One.png)](/images/2022/10/3-Configure-Settings-One.png)
 
 Another benefit of using Cloud9 is it takes care of the Identity Access Management (IAM) and Network connectivity to my cloud environment.
 
-![4-Configure-Settings-Two](/images/2022/10/4-Configure-Settings-Two.png)
+[![4-Configure-Settings-Two](/images/2022/10/4-Configure-Settings-Two.png)(/images/2022/10/4-Configure-Settings-Two.png)
 
 All set to create the bastion host!
 
-![5-Create-Environment](/images/2022/10/5-Create-Environment.png)
+[![5-Create-Environment](/images/2022/10/5-Create-Environment.png)](/images/2022/10/5-Create-Environment.png)
 
 Cloud Development Kit (CDK) typically has regular weekly updates.
 
@@ -58,7 +58,7 @@ $ eval $(ssh-agent -s)
 $ ssh-add ~/.ssh/id_rsa
 ```
 
-![6-GitHub-SSH-Keys](/images/2022/10/6-GitHub-SSH-Keys.png)
+[![6-GitHub-SSH-Keys](/images/2022/10/6-GitHub-SSH-Keys.png)](/images/2022/10/6-GitHub-SSH-Keys.png)
 
 Author setup is required, so pull requests show up as the GitHub user, not the EC2 device.
 
@@ -68,7 +68,7 @@ $ git config --global user.email <GitHub Email>
 $ git commit --amend --reset-author
 ```
 
-![7-GitHub-Privacy-Email](/images/2022/10/7-GitHub-Privacy-Email.png)
+[![7-GitHub-Privacy-Email](/images/2022/10/7-GitHub-Privacy-Email.png)](/images/2022/10/7-GitHub-Privacy-Email.png)
 
 Lastly, Cloud9 leaves temporary files ```.~c9``` if it has issues that we do not want merged.
 

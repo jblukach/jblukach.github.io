@@ -7,7 +7,7 @@ tags: AWS CDK Extension Lambda PublicIP Python
 
 It is not if but when you will need the public IP address from a Lambda execution to correlate against Cloud Trail logs during an incident so as not to end up a creek without a paddle. 
 
-![Ozark Kayaking](/images/2023/10/ozark.jpg)
+[![Ozark Kayaking](/images/2023/10/ozark.jpg)](/images/2023/10/ozark.jpg)
 
 If the Lambda is not attached to the VPC, please at least capture the public IP address to Cloud Watch Logs using a Lambda Extension for both Container and Packaged functions, as the preparation will be well worth the extra compute costs for this ephemeral artifact.
 

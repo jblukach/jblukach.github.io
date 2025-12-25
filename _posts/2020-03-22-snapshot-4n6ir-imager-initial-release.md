@@ -137,4 +137,4 @@ $ python3 Snapshot-4n6ir-Imager.py --region us-east-2 --snapshot snap-000bccfd69
 
 ##### ANALYSIS
 
-![Snapshot-4n6ir-Imager](/images/2020/03/snapshot-4n6ir-imager.png)
+[![Snapshot-4n6ir-Imager](/images/2020/03/snapshot-4n6ir-imager.png)](/images/2020/03/snapshot-4n6ir-imager.png)

@@ -31,17 +31,17 @@ A few disadvantages of using Cloud9 over the other IDEs include limited language
 
 Super simple to enable and accept the CodeWhisperer terms of services from any region with AWS Cloud9 available. 
 
-![cloud9-terms-of-service](/images/2023/04/cloud9-terms-of-service.png)
+[![cloud9-terms-of-service](/images/2023/04/cloud9-terms-of-service.png)](/images/2023/04/cloud9-terms-of-service.png)
 
 **Win**, I can choose not to share with CodeWhisperer for service improvement.
 
-![code-whisperer-switches](/images/2023/04/code-whisperer-switches.png)
+[![code-whisperer-switches](/images/2023/04/code-whisperer-switches.png)](/images/2023/04/code-whisperer-switches.png)
 
-![code-whisperer-share-content](/images/2023/04/code-whisperer-share-content.png)
+[![code-whisperer-share-content](/images/2023/04/code-whisperer-share-content.png)](/images/2023/04/code-whisperer-share-content.png)
 
 Even better, I can also opt out of sharing for all AI services at AWS.
 
-![ai-services-opt-out](/images/2023/04/ai-services-opt-out.png)
+[![ai-services-opt-out](/images/2023/04/ai-services-opt-out.png)](/images/2023/04/ai-services-opt-out.png)
 
 **Yes**, I should be using Amazon CodeWhisperer for improved developer productivity.
 
@@ -55,4 +55,4 @@ Even better, I can also opt out of sharing for all AI services at AWS.
 
 ##### Browser Compatibility
 
-![cookie-warning-message.png](/images/2023/04/cookie-warning-message.png)
+[![cookie-warning-message.png](/images/2023/04/cookie-warning-message.png)](/images/2023/04/cookie-warning-message.png)

@@ -16,15 +16,15 @@ On July 10, 2014, Amazon released Cognito as a user identity and data synchroniz
 
 First, I hit the landing page with a link that includes the Client ID to the Managed Login provided by Cognito.
 
-![root page](/images/2025/12/04/root-page.png)
+[![root page](/images/2025/12/04/root-page.png)](/images/2025/12/04/root-page.png)
 
 Second, I enter the previously created email address because self-registration is not allowed in the User Pool configuration.
 
-![hosted cognito](/images/2025/12/04/hosted-cognito.png)
+[![hosted cognito](/images/2025/12/04/hosted-cognito.png)](/images/2025/12/04/hosted-cognito.png)
 
 Third, I enter the verification code from the email used for passwordless authentication, sent by Amazon SES.
 
-![cognito verification](/images/2025/12/04/cognito-verification.png)
+[![cognito verification](/images/2025/12/04/cognito-verification.png)](/images/2025/12/04/cognito-verification.png)
 
 Fourth, the Managed Login redirects to the auth endpoint with a short-lived authorization code, used to retrieve the OAuth token. JavaScript is used to redirect the site on the client side using an HTTP Authorization Header.
 
@@ -32,11 +32,11 @@ Fourth, the Managed Login redirects to the auth endpoint with a short-lived auth
 
 ### Authentication Failure
 
-![no fishing](/images/2025/12/04/no-fishing.png)
+[![no fishing](/images/2025/12/04/no-fishing.png)](/images/2025/12/04/no-fishing.png)
 
 ### Authentication Success
 
-![auth page](/images/2025/12/04/auth-page.png)
+[![auth page](/images/2025/12/04/auth-page.png)](/images/2025/12/04/auth-page.png)
 
 Fifth, the Lambda Authorizer validates the Bearer token to determine whether the home page is authorized to be displayed.
 
@@ -50,7 +50,7 @@ Fifth, the Lambda Authorizer validates the Bearer token to determine whether the
 
 ### Verification Success
 
-![home page](/images/2025/12/04/home-page.png)
+[![home page](/images/2025/12/04/home-page.png)](/images/2025/12/04/home-page.png)
 
 I found a few bugs in the Cloud Deployment Kit (CDK) regarding logging for API Gateway and Cognito in the Python Infrastructure as Code (IaC).
 

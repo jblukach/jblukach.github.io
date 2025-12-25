@@ -19,11 +19,11 @@ Enter Jupyter Notebook that runs anywhere from Amazon SageMaker, GitHub Codespac
 
 ##### Amazon Route53 Resolver Queries
 
-![Query Deviation](/images/2023/11/query.png)
+[![Query Deviation](/images/2023/11/query.png)](/images/2023/11/query.png)
 
 ##### Amazon Route53 Resolver Answers
 
-![Answer Deviation](/images/2023/11/answer.png)
+[![Answer Deviation](/images/2023/11/answer.png)](/images/2023/11/answer.png)
 
 I changed the Python library to simplify authentication, collaboration, configuration, dependencies, and Amazon Security Lake data searching using Jupyter Notebook for analysis.
 

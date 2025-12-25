@@ -48,7 +48,7 @@ In July of 2021, Cloud Trail gained the ability to log data events for EBS Direc
 
 These data events are still not logged by default; thus wise to leave the SCP in place. Also, shared snapshots do not send the data events to the AWS account that owns the snapshot.
 
-![Cloud Trail Data Event EBS Direct API](/images/2022/03/dataevent-ebsdirectapi-cloudtrail.jpg)
+[![Cloud Trail Data Event EBS Direct API](/images/2022/03/dataevent-ebsdirectapi-cloudtrail.jpg)](/images/2022/03/dataevent-ebsdirectapi-cloudtrail.jpg)
 
 I missed that they added SHA256 as the checksum for the snapshot blocks collected with the EBS Direct API in the Boto3 SDK at some point.
 
@@ -64,4 +64,4 @@ Finally, I created a Python package for rebuilding the forensic image.
 
 [https://github.com/4n6ir/snap4n6cli](https://github.com/4n6ir/snap4n6cli)
 
-![Snap4n6 Step-Function](/images/2022/03/snap4n6-step-function.jpg)
+[![Snap4n6 Step-Function](/images/2022/03/snap4n6-step-function.jpg)](/images/2022/03/snap4n6-step-function.jpg)
