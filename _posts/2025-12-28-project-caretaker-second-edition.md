@@ -41,7 +41,7 @@ An unknown result indicates that no data is currently available from the threat 
 
 ```json
 {
-    "ip": "< IPv4 or IPv6 >",
+    "ip": " IPv4 or IPv6 ",
     "status": "unknown",
     "updated": "2025-12-28 11:10:15 UTC",
     "region": "us-east-1"
@@ -54,11 +54,11 @@ A suspect result indicates that one or more threat feeds have flagged the IP add
 
 ```json
 {
-    "ip": "< IPv4 or IPv6 >",
+    "ip": " IPv4 or IPv6 ",
     "status": "suspect",
     "attribution": [
         [
-            "< IPv4 or IPv6 >",
+            " IPv4 or IPv6 ",
             "jamesbrine",
             "https://jamesbrine.com.au"
         ]
