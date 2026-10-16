@@ -19,29 +19,16 @@ The pipeline handles preparation and inference separately:
 
 ```text
 Manifest -> scs-download -> Study bucket
-                                |
-                          manual staging
-                                v
-PDF bucket -> pdf2md -> Markdown bucket
-                                |
-                        text2chunk (manual)
-                                v
-                           Chunk bucket
-                                |
-                        chunk2read (manual)
-                         /              \
-                   Read bucket      FLEX bucket
-                        |                |
-                  Bedrock batch    Converse FLEX
-                         \              /
-                           Nova bucket
-                                |
-                          output (manual)
-                                v
-                            Out bucket
-
-Large-PDF preparation, before conversion:
-Raw bucket -> raw2split -> Split bucket --manual copy--> PDF bucket
+Raw -> raw2split -> Split bucket
+Study/Split -> PDF bucket (manual copy)
+PDF -> pdf2md -> Markdown bucket
+Markdown -> text2chunk (manual) -> Chunk
+Chunk -> chunk2read (manual)
+  /                    \
+Read bucket (batch)  FLEX (Converse)
+  \                    /
+        Nova bucket
+Nova -> output (manual) -> Out bucket
 ```
 
 This is not an unattended chain. Downloading, chunking, staging inference inputs, and assembling outputs each require a manual invocation. Conversion and splitting react to PDF uploads; inference runs asynchronously after chunks reach the read or FLEX bucket. S3 holds the intermediate files, so each stage can be inspected before moving on.
