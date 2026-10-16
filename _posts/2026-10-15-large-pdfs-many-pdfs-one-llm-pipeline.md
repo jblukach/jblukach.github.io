@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Large PDFs, Many PDFs: One LLM Pipeline"
+title: "Builder #3 - Large PDFs, Many PDFs: One LLM Pipeline"
 author: "John Lukach"
 tags: aws bedrock lambda llm pdf pipeline
 ---
