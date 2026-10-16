@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Builder #3 - Large PDFs, Many PDFs: One LLM Pipeline"
+title: "Builder #3 - Large PDFs, Many PDFs: LLM Pipeline"
 author: "John Lukach"
 tags: aws bedrock lambda llm pdf pipeline
 ---
@@ -17,11 +17,12 @@ A large PDF can exceed a conversion function's memory or timeout before the mode
 
 The pipeline handles preparation and inference separately:
 
-<pre style="font-size: min(0.65em, 1.8vw); overflow-x: hidden;">Manifest -&gt; scs-download -&gt; Study bucket
+```text
+Manifest -> scs-download -> Study bucket
                                 |
                           manual staging
                                 v
-PDF bucket -&gt; pdf2md -&gt; Markdown bucket
+PDF bucket -> pdf2md -> Markdown bucket
                                 |
                         text2chunk (manual)
                                 v
@@ -40,7 +41,9 @@ PDF bucket -&gt; pdf2md -&gt; Markdown bucket
                             Out bucket
 
 Large-PDF preparation, before conversion:
-Raw bucket -&gt; raw2split -&gt; Split bucket --manual copy--&gt; PDF bucket</pre>
+Raw bucket -> raw2split -> Split bucket
+Split bucket --manual copy--> PDF bucket
+```
 
 This is not an unattended chain. Downloading, chunking, staging inference inputs, and assembling outputs each require a manual invocation. Conversion and splitting react to PDF uploads; inference runs asynchronously after chunks reach the read or FLEX bucket. S3 holds the intermediate files, so each stage can be inspected before moving on.
 
