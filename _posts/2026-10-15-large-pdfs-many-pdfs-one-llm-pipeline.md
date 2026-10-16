@@ -17,19 +17,30 @@ A large PDF can exceed a conversion function's memory or timeout before the mode
 
 The pipeline handles preparation and inference separately:
 
-```text
-Manifest -> scs-download -> Study bucket
-Raw -> raw2split -> Split bucket
-Study/Split -> PDF bucket (manual copy)
-PDF -> pdf2md -> Markdown bucket
-Markdown -> text2chunk (manual) -> Chunk
-Chunk -> chunk2read (manual)
-  /                    \
-Read bucket (batch)  FLEX (Converse)
-  \                    /
-        Nova bucket
-Nova -> output (manual) -> Out bucket
-```
+<pre style="font-size: min(0.65em, 1.8vw); overflow-x: hidden;">Manifest -&gt; scs-download -&gt; Study bucket
+                                |
+                          manual staging
+                                v
+PDF bucket -&gt; pdf2md -&gt; Markdown bucket
+                                |
+                        text2chunk (manual)
+                                v
+                           Chunk bucket
+                                |
+                        chunk2read (manual)
+                         /              \
+                   Read bucket      FLEX bucket
+                        |                |
+                  Bedrock batch    Converse FLEX
+                         \              /
+                           Nova bucket
+                                |
+                          output (manual)
+                                v
+                            Out bucket
+
+Large-PDF preparation, before conversion:
+Raw bucket -&gt; raw2split -&gt; Split bucket --manual copy--&gt; PDF bucket</pre>
 
 This is not an unattended chain. Downloading, chunking, staging inference inputs, and assembling outputs each require a manual invocation. Conversion and splitting react to PDF uploads; inference runs asynchronously after chunks reach the read or FLEX bucket. S3 holds the intermediate files, so each stage can be inspected before moving on.
 
